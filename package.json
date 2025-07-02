@@ -1,0 +1,13 @@
+{
+  "name": "upsell-pages",
+  "version": "1.0.0",
+  "description": "Static HTML upsell pages for cPanel deployment",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build needed - static HTML files'",
+    "start": "echo 'Open index.html files directly in browser'"
+  },
+  "keywords": ["upsell", "static", "html"],
+  "author": "",
+  "license": "ISC"
+}
