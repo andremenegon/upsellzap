@@ -4,8 +4,9 @@
   "description": "Static HTML upsell pages for cPanel deployment",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'No build needed - static HTML files'",
-    "start": "echo 'Open index.html files directly in browser'"
+    "dev": "python3 -m http.server 5173",
+    "start": "python3 -m http.server 5173",
+    "build": "echo 'No build needed - static HTML files'"
   },
   "keywords": ["upsell", "static", "html"],
   "author": "",
