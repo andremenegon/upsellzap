@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Comment Manager - Micro SaaS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Facebook Comment Manager</h1>
+            <p class="text-xl opacity-90">Automatize e gerencie comentários do Facebook com IA</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                Transforme Comentários em Vendas Automaticamente
+            </h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+                Nossa ferramenta de IA analisa comentários do Facebook e responde automaticamente, 
+                convertendo interações em leads qualificados e vendas.
+            </p>
+            
+            <div class="bg-white rounded-lg shadow-lg p-8 max-w-md mx-auto card-hover">
+                <div class="text-center mb-6">
+                    <div class="text-gray-500 text-lg line-through mb-2">De R$ 297/mês</div>
+                    <div class="text-4xl font-bold text-green-600 mb-2">R$ 97/mês</div>
+                    <div class="text-red-500 font-semibold">Economia de 67%!</div>
+                </div>
+                
+                <ul class="text-left space-y-3 mb-6">
+                    <li class="flex items-center">
+                        <span class="text-green-500 mr-2">✓</span>
+                        Respostas automáticas com IA
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-green-500 mr-2">✓</span>
+                        Análise de sentimento
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-green-500 mr-2">✓</span>
+                        Dashboard completo
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-green-500 mr-2">✓</span>
+                        Integração com CRM
+                    </li>
+                </ul>
+                
+                <button onclick="window.location.href='Upsell1/'" 
+                        class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    COMEÇAR AGORA
+                </button>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="grid md:grid-cols-3 gap-8 mb-16">
+            <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                <div class="text-blue-600 text-3xl mb-4">🤖</div>
+                <h3 class="text-xl font-semibold mb-3">IA Avançada</h3>
+                <p class="text-gray-600">Algoritmos de machine learning para respostas personalizadas e eficazes.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                <div class="text-green-600 text-3xl mb-4">📈</div>
+                <h3 class="text-xl font-semibold mb-3">Aumento de Vendas</h3>
+                <p class="text-gray-600">Converta até 40% mais comentários em leads qualificados.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+                <div class="text-purple-600 text-3xl mb-4">⚡</div>
+                <h3 class="text-xl font-semibold mb-3">Resposta Instantânea</h3>
+                <p class="text-gray-600">Respostas em menos de 30 segundos, 24/7.</p>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-16">
+            <h3 class="text-2xl font-bold text-center mb-8">O que nossos clientes dizem</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-600 italic mb-3">
+                        "Aumentei minhas vendas em 300% no primeiro mês. A ferramenta é incrível!"
+                    </p>
+                    <p class="font-semibold">- João Silva, E-commerce</p>
+                </div>
+                <div class="border-l-4 border-green-500 pl-4">
+                    <p class="text-gray-600 italic mb-3">
+                        "Economizo 5 horas por dia que gastava respondendo comentários manualmente."
+                    </p>
+                    <p class="font-semibold">- Maria Santos, Marketing Digital</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Facebook Comment Manager. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
